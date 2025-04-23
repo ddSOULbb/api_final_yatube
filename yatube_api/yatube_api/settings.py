@@ -1,12 +1,6 @@
 from pathlib import Path
-import os
-from dotenv import load_dotenv
 
-# Загружаем переменные окружения из .env файла
-load_dotenv()
-
-# Теперь SECRET_KEY можно безопасно загружать из переменных окружения
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = 'hhz7l-ltdismtf@bzyz+rple7*s*w$jak%whj@(@u0eok^f9k4'
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
